@@ -1,0 +1,1 @@
+geth --networkid 3636 --mine --miner.threads 2 --datadir "." --nodiscover --http --http.port "8545" --http.addr "192.168.22.90" --port "30303" --http.corsdomain "*" --nat extip:192.168.22.90 --http.api eth,web3,personal,net --unlock 0x92A5Ec0101e0C97500F5b0F6E2eAb8Df0693055c --password ./password.sec --ipcpath "~/.ethereum/geth.ipc" --allow-insecure-unlock --nousb
